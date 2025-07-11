@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:advansoft-pb/Apfelkuchen-Config.git
+          uri: https://github.com/advansoft-pb/Apfelkuchen-Config.git
           defaultLabel: main
           tryMasterBranch: false
           clone-on-start: true
