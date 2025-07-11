@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:advansoft-pb/Apfelkuchen-Config.git
+          defaultLabel: main
+          tryMasterBranch: false
+          clone-on-start: true
+  security:
+    user:
+      name: piotr
+      password: s3cr3t
